@@ -43,7 +43,7 @@ public class CheckList {
         attachmentButton.typeText("C:/Users/DELL/Pictures/images/Test2.PNG");
         Thread.sleep(30000);
         submitButton.click();
-        Thread.sleep(20000);
+        Thread.sleep(30000);
         return new ReportDetailsPage(driver);
     }
 }
